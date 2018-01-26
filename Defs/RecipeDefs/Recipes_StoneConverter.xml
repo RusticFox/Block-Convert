@@ -1,0 +1,1706 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!--No Elec Base Defs-->	
+	<RecipeDef Name="ConvertStoneBlocksBase" Abstract="True">
+		<jobString>Converting blocks to other blocks.</jobString>
+		<workAmount>300</workAmount>
+		<workSkill>Construction</workSkill>
+		<workSkillLearnFactor>0.3</workSkillLearnFactor>
+		<effectWorking>CutStone</effectWorking>
+		<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
+		<targetCountAdjustment>20</targetCountAdjustment>
+		<recipeUsers>
+			<li>BlocksWorkTable</li>
+		</recipeUsers>
+	</RecipeDef>
+	<RecipeDef Name="ConvertStoneBlocksBase10" Abstract="True">
+		<jobString>Converting blocks to other blocks.</jobString>
+		<workAmount>3000</workAmount>
+		<workSkill>Construction</workSkill>
+		<workSkillLearnFactor>0.3</workSkillLearnFactor>
+		<effectWorking>CutStone</effectWorking>
+		<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
+		<targetCountAdjustment>20</targetCountAdjustment>
+		<recipeUsers>
+			<li>BlocksWorkTable</li>
+		</recipeUsers>
+	</RecipeDef>
+	<RecipeDef Name="ConvertStoneBlocksBase25" Abstract="True">
+		<jobString>Converting blocks to other blocks.</jobString>
+		<workAmount>7500</workAmount>
+		<workSkill>Construction</workSkill>
+		<workSkillLearnFactor>0.3</workSkillLearnFactor>
+		<effectWorking>CutStone</effectWorking>
+		<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
+		<targetCountAdjustment>20</targetCountAdjustment>
+		<recipeUsers>
+			<li>BlocksWorkTable</li>
+		</recipeUsers>
+	</RecipeDef>
+	<RecipeDef Name="ConvertStoneBlocksBase50" Abstract="True">
+		<jobString>Converting blocks to other blocks.</jobString>
+		<workAmount>15000</workAmount>
+		<workSkill>Construction</workSkill>
+		<workSkillLearnFactor>0.3</workSkillLearnFactor>
+		<effectWorking>CutStone</effectWorking>
+		<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
+		<targetCountAdjustment>20</targetCountAdjustment>
+		<recipeUsers>
+			<li>BlocksWorkTable</li>
+		</recipeUsers>
+	</RecipeDef>
+	<RecipeDef Name="ConvertStoneBlocksBase100" Abstract="True">
+		<jobString>Converting blocks to other blocks.</jobString>
+		<workAmount>30000</workAmount>
+
+		<workSkill>Construction</workSkill>
+		<workSkillLearnFactor>0.3</workSkillLearnFactor>
+		<effectWorking>CutStone</effectWorking>
+		<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
+		<targetCountAdjustment>20</targetCountAdjustment>
+		<recipeUsers>
+			<li>BlocksWorkTable</li>
+		</recipeUsers>
+	</RecipeDef>
+  <!--Elec Base Defs-->	
+	<RecipeDef Name="ElecConvertStoneBlocksBase" Abstract="True">
+		<jobString>Converting blocks to other blocks.</jobString>
+		<workAmount>150</workAmount>
+		<workSkill>Construction</workSkill>
+		<workSkillLearnFactor>0.3</workSkillLearnFactor>
+		<effectWorking>CutStone</effectWorking>
+		<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
+		<targetCountAdjustment>20</targetCountAdjustment>
+		<recipeUsers>
+			<li>BlocksWorkTableElec</li>
+		</recipeUsers>
+	</RecipeDef>
+	<RecipeDef Name="ElecConvertStoneBlocksBase10" Abstract="True">
+		<jobString>Converting blocks to other blocks.</jobString>
+		<workAmount>1500</workAmount>
+		<workSkill>Construction</workSkill>
+		<workSkillLearnFactor>0.3</workSkillLearnFactor>
+		<effectWorking>CutStone</effectWorking>
+		<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
+		<targetCountAdjustment>20</targetCountAdjustment>
+		<recipeUsers>
+			<li>BlocksWorkTableElec</li>
+		</recipeUsers>
+	</RecipeDef>
+	<RecipeDef Name="ElecConvertStoneBlocksBase25" Abstract="True">
+		<jobString>Converting blocks to other blocks.</jobString>
+		<workAmount>3750</workAmount>
+		<workSkill>Construction</workSkill>
+		<workSkillLearnFactor>0.3</workSkillLearnFactor>
+		<effectWorking>CutStone</effectWorking>
+		<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
+		<targetCountAdjustment>20</targetCountAdjustment>
+		<recipeUsers>
+			<li>BlocksWorkTableElec</li>
+		</recipeUsers>
+	</RecipeDef>
+	<RecipeDef Name="ElecConvertStoneBlocksBase50" Abstract="True">
+		<jobString>Converting blocks to other blocks.</jobString>
+		<workAmount>7500</workAmount>
+		<workSkill>Construction</workSkill>
+		<workSkillLearnFactor>0.3</workSkillLearnFactor>
+		<effectWorking>CutStone</effectWorking>
+		<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
+		<targetCountAdjustment>20</targetCountAdjustment>
+		<recipeUsers>
+			<li>BlocksWorkTableElec</li>
+		</recipeUsers>
+	</RecipeDef>
+	<RecipeDef Name="ElecConvertStoneBlocksBase100" Abstract="True">
+		<jobString>Converting blocks to other blocks.</jobString>
+		<workAmount>15000</workAmount>
+		<workSkill>Construction</workSkill>
+		<workSkillLearnFactor>0.3</workSkillLearnFactor>
+		<effectWorking>CutStone</effectWorking>
+		<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
+		<targetCountAdjustment>20</targetCountAdjustment>
+		<recipeUsers>
+			<li>BlocksWorkTableElec</li>
+		</recipeUsers>
+	</RecipeDef>
+  <!--No Elec Stone Convert Single-->	
+	<RecipeDef ParentName="ConvertStoneBlocksBase">
+		<defName>C2Slate</defName>
+		<label>convert any stone blocks to slate</label>
+		<description>makes other blocks into slate blocks.</description>
+		<ingredients>
+			<li>
+			  <filter>
+			    <thingDefs>
+				  <li>BlocksGranite</li>
+				  <li>BlocksMarble</li>
+				  <li>BlocksLimestone</li>
+				  <li>BlocksSandstone</li>
+				 </thingDefs>
+			  </filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+		  <thingDefs>
+			<li>BlocksGranite</li>
+			<li>BlocksMarble</li>
+			<li>BlocksLimestone</li>
+			<li>BlocksSandstone</li>
+		  </thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<BlocksSlate>1</BlocksSlate>
+		</products>
+	</RecipeDef>
+	<RecipeDef ParentName="ConvertStoneBlocksBase">
+		<defName>C2Granite</defName>
+		<label>convert any stone blocks to granite</label>
+		<description>makes other blocks into granite blocks.</description>
+		<ingredients>
+			<li>
+			  <filter>
+			    <thingDefs>
+				  <li>BlocksSlate</li>
+				  <li>BlocksMarble</li>
+				  <li>BlocksLimestone</li>
+				  <li>BlocksSandstone</li>
+				 </thingDefs>
+			  </filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+		  <thingDefs>
+			<li>BlocksSlate</li>
+			<li>BlocksMarble</li>
+			<li>BlocksLimestone</li>
+			<li>BlocksSandstone</li>
+		  </thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<BlocksGranite>1</BlocksGranite>
+		</products>
+	</RecipeDef>
+	<RecipeDef ParentName="ConvertStoneBlocksBase">
+		<defName>C2Limestone</defName>
+		<label>convert any stone blocks to limestone</label>
+		<description>makes other blocks into limestone blocks.</description>
+		<ingredients>
+			<li>
+			  <filter>
+			    <thingDefs>
+				  <li>BlocksSlate</li>
+				  <li>BlocksMarble</li>
+				  <li>BlocksGranite</li>
+				  <li>BlocksSandstone</li>
+				 </thingDefs>
+			  </filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+		  <thingDefs>
+			<li>BlocksSlate</li>
+			<li>BlocksMarble</li>
+			<li>BlocksGranite</li>
+			<li>BlocksSandstone</li>
+		  </thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<BlocksLimestone>1</BlocksLimestone>
+		</products>
+	</RecipeDef>
+	<RecipeDef ParentName="ConvertStoneBlocksBase">
+		<defName>C2Marble</defName>
+		<label>convert any stone blocks to marble</label>
+		<description>makes other blocks into marble blocks.</description>
+		<ingredients>
+			<li>
+			  <filter>
+			    <thingDefs>
+				  <li>BlocksSlate</li>
+				  <li>BlocksGranite</li>
+				  <li>BlocksLimestone</li>
+				  <li>BlocksSandstone</li>
+				 </thingDefs>
+			  </filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+		  <thingDefs>
+			<li>BlocksSlate</li>
+			<li>BlocksGranite</li>
+			<li>BlocksLimestone</li>
+			<li>BlocksSandstone</li>
+		  </thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<BlocksMarble>1</BlocksMarble>
+		</products>
+	</RecipeDef>
+	<RecipeDef ParentName="ConvertStoneBlocksBase">
+		<defName>C2Sandstone</defName>
+		<label>convert any stone blocks to sandstone</label>
+		<description>makes other blocks into sandstone blocks.</description>
+		<ingredients>
+			<li>
+			  <filter>
+			    <thingDefs>
+				  <li>BlocksSlate</li>
+				  <li>BlocksMarble</li>
+				  <li>BlocksLimestone</li>
+				  <li>BlocksGranite</li>
+				 </thingDefs>
+			  </filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+		  <thingDefs>
+			<li>BlocksSlate</li>
+			<li>BlocksMarble</li>
+			<li>BlocksLimestone</li>
+			<li>BlocksGranite</li>
+		  </thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<BlocksSandstone>1</BlocksSandstone>
+		</products>
+	</RecipeDef>
+  <!--No Elec Stone Convert 10-->	
+	<RecipeDef ParentName="ConvertStoneBlocksBase10">
+		<defName>C210Slate</defName>
+		<label>convert any stone blocks to slate (10)</label>
+		<description>makes other blocks into slate blocks.</description>
+		<ingredients>
+			<li>
+			  <filter>
+			    <thingDefs>
+				  <li>BlocksGranite</li>
+				  <li>BlocksMarble</li>
+				  <li>BlocksLimestone</li>
+				  <li>BlocksSandstone</li>
+				 </thingDefs>
+			  </filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+		  <thingDefs>
+			<li>BlocksGranite</li>
+			<li>BlocksMarble</li>
+			<li>BlocksLimestone</li>
+			<li>BlocksSandstone</li>
+		  </thingDefs>
+		</fixedIngredientFilter>
+		<skillRequirements>
+			<Crafting>6</Crafting>
+		</skillRequirements>
+		<products>
+			<BlocksSlate>10</BlocksSlate>
+		</products>
+	</RecipeDef>
+	<RecipeDef ParentName="ConvertStoneBlocksBase10">
+		<defName>C210Granite</defName>
+		<label>convert any stone blocks to granite (10)</label>
+		<description>makes other blocks into granite blocks.</description>
+		<ingredients>
+			<li>
+			  <filter>
+			    <thingDefs>
+				  <li>BlocksSlate</li>
+				  <li>BlocksMarble</li>
+				  <li>BlocksLimestone</li>
+				  <li>BlocksSandstone</li>
+				 </thingDefs>
+			  </filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+		  <thingDefs>
+			<li>BlocksSlate</li>
+			<li>BlocksMarble</li>
+			<li>BlocksLimestone</li>
+			<li>BlocksSandstone</li>
+		  </thingDefs>
+		</fixedIngredientFilter>
+		<skillRequirements>
+			<Crafting>4</Crafting>
+		</skillRequirements>
+		<products>
+			<BlocksGranite>10</BlocksGranite>
+		</products>
+	</RecipeDef>
+	<RecipeDef ParentName="ConvertStoneBlocksBase10">
+		<defName>C210Limestone</defName>
+		<label>convert any stone blocks to limestone (10)</label>
+		<description>makes other blocks into limestone blocks.</description>
+		<ingredients>
+			<li>
+			  <filter>
+			    <thingDefs>
+				  <li>BlocksSlate</li>
+				  <li>BlocksMarble</li>
+				  <li>BlocksGranite</li>
+				  <li>BlocksSandstone</li>
+				 </thingDefs>
+			  </filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+		  <thingDefs>
+			<li>BlocksSlate</li>
+			<li>BlocksMarble</li>
+			<li>BlocksGranite</li>
+			<li>BlocksSandstone</li>
+		  </thingDefs>
+		</fixedIngredientFilter>
+		<skillRequirements>
+			<Crafting>4</Crafting>
+		</skillRequirements>
+		<products>
+			<BlocksLimestone>10</BlocksLimestone>
+		</products>
+	</RecipeDef>
+	<RecipeDef ParentName="ConvertStoneBlocksBase10">
+		<defName>C210Marble</defName>
+		<label>convert any stone blocks to marble (10)</label>
+		<description>makes other blocks into marble blocks.</description>
+		<ingredients>
+			<li>
+			  <filter>
+			    <thingDefs>
+				  <li>BlocksSlate</li>
+				  <li>BlocksGranite</li>
+				  <li>BlocksLimestone</li>
+				  <li>BlocksSandstone</li>
+				 </thingDefs>
+			  </filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+		  <thingDefs>
+			<li>BlocksSlate</li>
+			<li>BlocksGranite</li>
+			<li>BlocksLimestone</li>
+			<li>BlocksSandstone</li>
+		  </thingDefs>
+		</fixedIngredientFilter>
+		<skillRequirements>
+			<Crafting>4</Crafting>
+		</skillRequirements>
+		<products>
+			<BlocksMarble>10</BlocksMarble>
+		</products>
+	</RecipeDef>
+	<RecipeDef ParentName="ConvertStoneBlocksBase10">
+		<defName>C210Sandstone</defName>
+		<label>convert any stone blocks to sandstone (10)</label>
+		<description>makes other blocks into sandstone blocks.</description>
+		<ingredients>
+			<li>
+			  <filter>
+			    <thingDefs>
+				  <li>BlocksSlate</li>
+				  <li>BlocksMarble</li>
+				  <li>BlocksLimestone</li>
+				  <li>BlocksGranite</li>
+				 </thingDefs>
+			  </filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+		  <thingDefs>
+			<li>BlocksSlate</li>
+			<li>BlocksMarble</li>
+			<li>BlocksLimestone</li>
+			<li>BlocksGranite</li>
+		  </thingDefs>
+		</fixedIngredientFilter>
+		<skillRequirements>
+			<Crafting>4</Crafting>
+		</skillRequirements>
+		<products>
+			<BlocksSandstone>10</BlocksSandstone>
+		</products>
+	</RecipeDef>
+  <!--No Elec Stone Convert 25-->
+	<RecipeDef ParentName="ConvertStoneBlocksBase25">
+		<defName>C225Slate</defName>
+		<label>convert any stone blocks to slate (25)</label>
+		<description>makes other blocks into slate blocks.</description>
+		<ingredients>
+			<li>
+			  <filter>
+			    <thingDefs>
+				  <li>BlocksGranite</li>
+				  <li>BlocksMarble</li>
+				  <li>BlocksLimestone</li>
+				  <li>BlocksSandstone</li>
+				 </thingDefs>
+			  </filter>
+				<count>25</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+		  <thingDefs>
+			<li>BlocksGranite</li>
+			<li>BlocksMarble</li>
+			<li>BlocksLimestone</li>
+			<li>BlocksSandstone</li>
+		  </thingDefs>
+		</fixedIngredientFilter>
+		<skillRequirements>
+			<Crafting>8</Crafting>
+		</skillRequirements>
+		<products>
+			<BlocksSlate>25</BlocksSlate>
+		</products>
+	</RecipeDef>
+	<RecipeDef ParentName="ConvertStoneBlocksBase25">
+		<defName>C225Granite</defName>
+		<label>convert any stone blocks to granite (25)</label>
+		<description>makes other blocks into granite blocks.</description>
+		<ingredients>
+			<li>
+			  <filter>
+			    <thingDefs>
+				  <li>BlocksSlate</li>
+				  <li>BlocksMarble</li>
+				  <li>BlocksLimestone</li>
+				  <li>BlocksSandstone</li>
+				 </thingDefs>
+			  </filter>
+				<count>25</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+		  <thingDefs>
+			<li>BlocksSlate</li>
+			<li>BlocksMarble</li>
+			<li>BlocksLimestone</li>
+			<li>BlocksSandstone</li>
+		  </thingDefs>
+		</fixedIngredientFilter>
+		<skillRequirements>
+			<Crafting>8</Crafting>
+		</skillRequirements>
+		<products>
+			<BlocksGranite>25</BlocksGranite>
+		</products>
+	</RecipeDef>
+	<RecipeDef ParentName="ConvertStoneBlocksBase25">
+		<defName>C225Limestone</defName>
+		<label>convert any stone blocks to limestone (25)</label>
+		<description>makes other blocks into limestone blocks.</description>
+		<ingredients>
+			<li>
+			  <filter>
+			    <thingDefs>
+				  <li>BlocksSlate</li>
+				  <li>BlocksMarble</li>
+				  <li>BlocksGranite</li>
+				  <li>BlocksSandstone</li>
+				 </thingDefs>
+			  </filter>
+				<count>25</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+		  <thingDefs>
+			<li>BlocksSlate</li>
+			<li>BlocksMarble</li>
+			<li>BlocksGranite</li>
+			<li>BlocksSandstone</li>
+		  </thingDefs>
+		</fixedIngredientFilter>
+		<skillRequirements>
+			<Crafting>8</Crafting>
+		</skillRequirements>
+		<products>
+			<BlocksLimestone>25</BlocksLimestone>
+		</products>
+	</RecipeDef>
+	<RecipeDef ParentName="ConvertStoneBlocksBase25">
+		<defName>C225Marble</defName>
+		<label>convert any stone blocks to marble (25)</label>
+		<description>makes other blocks into marble blocks.</description>
+		<ingredients>
+			<li>
+			  <filter>
+			    <thingDefs>
+				  <li>BlocksSlate</li>
+				  <li>BlocksGranite</li>
+				  <li>BlocksLimestone</li>
+				  <li>BlocksSandstone</li>
+				 </thingDefs>
+			  </filter>
+				<count>25</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+		  <thingDefs>
+			<li>BlocksSlate</li>
+			<li>BlocksGranite</li>
+			<li>BlocksLimestone</li>
+			<li>BlocksSandstone</li>
+		  </thingDefs>
+		</fixedIngredientFilter>
+		<skillRequirements>
+			<Crafting>8</Crafting>
+		</skillRequirements>
+		<products>
+			<BlocksMarble>25</BlocksMarble>
+		</products>
+	</RecipeDef>
+	<RecipeDef ParentName="ConvertStoneBlocksBase25">
+		<defName>C225Sandstone</defName>
+		<label>convert any stone blocks to sandstone (25)</label>
+		<description>makes other blocks into sandstone blocks.</description>
+		<ingredients>
+			<li>
+			  <filter>
+			    <thingDefs>
+				  <li>BlocksSlate</li>
+				  <li>BlocksMarble</li>
+				  <li>BlocksLimestone</li>
+				  <li>BlocksGranite</li>
+				 </thingDefs>
+			  </filter>
+				<count>25</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+		  <thingDefs>
+			<li>BlocksSlate</li>
+			<li>BlocksMarble</li>
+			<li>BlocksLimestone</li>
+			<li>BlocksGranite</li>
+		  </thingDefs>
+		</fixedIngredientFilter>
+		<skillRequirements>
+			<Crafting>8</Crafting>
+		</skillRequirements>
+		<products>
+			<BlocksSandstone>25</BlocksSandstone>
+		</products>
+	</RecipeDef>
+  <!--No Elec Stone Convert 50-->
+	<RecipeDef ParentName="ConvertStoneBlocksBase50">
+		<defName>C250Slate</defName>
+		<label>convert any stone blocks to slate (50)</label>
+		<description>makes other blocks into slate blocks.</description>
+		<ingredients>
+			<li>
+			  <filter>
+			    <thingDefs>
+				  <li>BlocksGranite</li>
+				  <li>BlocksMarble</li>
+				  <li>BlocksLimestone</li>
+				  <li>BlocksSandstone</li>
+				 </thingDefs>
+			  </filter>
+				<count>50</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+		  <thingDefs>
+			<li>BlocksGranite</li>
+			<li>BlocksMarble</li>
+			<li>BlocksLimestone</li>
+			<li>BlocksSandstone</li>
+		  </thingDefs>
+		</fixedIngredientFilter>
+		<skillRequirements>
+			<Crafting>12</Crafting>
+		</skillRequirements>
+		<products>
+			<BlocksSlate>50</BlocksSlate>
+		</products>
+	</RecipeDef>
+	<RecipeDef ParentName="ConvertStoneBlocksBase50">
+		<defName>C250Granite</defName>
+		<label>convert any stone blocks to granite (50)</label>
+		<description>makes other blocks into granite blocks.</description>
+		<ingredients>
+			<li>
+			  <filter>
+			    <thingDefs>
+				  <li>BlocksSlate</li>
+				  <li>BlocksMarble</li>
+				  <li>BlocksLimestone</li>
+				  <li>BlocksSandstone</li>
+				 </thingDefs>
+			  </filter>
+				<count>50</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+		  <thingDefs>
+			<li>BlocksSlate</li>
+			<li>BlocksMarble</li>
+			<li>BlocksLimestone</li>
+			<li>BlocksSandstone</li>
+		  </thingDefs>
+		</fixedIngredientFilter>
+		<skillRequirements>
+			<Crafting>12</Crafting>
+		</skillRequirements>
+		<products>
+			<BlocksGranite>50</BlocksGranite>
+		</products>
+	</RecipeDef>
+	<RecipeDef ParentName="ConvertStoneBlocksBase50">
+		<defName>C250Limestone</defName>
+		<label>convert any stone blocks to limestone (50)</label>
+		<description>makes other blocks into limestone blocks.</description>
+		<ingredients>
+			<li>
+			  <filter>
+			    <thingDefs>
+				  <li>BlocksSlate</li>
+				  <li>BlocksMarble</li>
+				  <li>BlocksGranite</li>
+				  <li>BlocksSandstone</li>
+				 </thingDefs>
+			  </filter>
+				<count>50</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+		  <thingDefs>
+			<li>BlocksSlate</li>
+			<li>BlocksMarble</li>
+			<li>BlocksGranite</li>
+			<li>BlocksSandstone</li>
+		  </thingDefs>
+		</fixedIngredientFilter>
+		<skillRequirements>
+			<Crafting>12</Crafting>
+		</skillRequirements>
+		<products>
+			<BlocksLimestone>50</BlocksLimestone>
+		</products>
+	</RecipeDef>
+	<RecipeDef ParentName="ConvertStoneBlocksBase50">
+		<defName>C250Marble</defName>
+		<label>convert any stone blocks to marble (50)</label>
+		<description>makes other blocks into marble blocks.</description>
+		<ingredients>
+			<li>
+			  <filter>
+			    <thingDefs>
+				  <li>BlocksSlate</li>
+				  <li>BlocksGranite</li>
+				  <li>BlocksLimestone</li>
+				  <li>BlocksSandstone</li>
+				 </thingDefs>
+			  </filter>
+				<count>50</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+		  <thingDefs>
+			<li>BlocksSlate</li>
+			<li>BlocksGranite</li>
+			<li>BlocksLimestone</li>
+			<li>BlocksSandstone</li>
+		  </thingDefs>
+		</fixedIngredientFilter>
+		<skillRequirements>
+			<Crafting>12</Crafting>
+		</skillRequirements>
+		<products>
+			<BlocksMarble>50</BlocksMarble>
+		</products>
+	</RecipeDef>
+	<RecipeDef ParentName="ConvertStoneBlocksBase50">
+		<defName>C250Sandstone</defName>
+		<label>convert any stone blocks to sandstone (50)</label>
+		<description>makes other blocks into sandstone blocks.</description>
+		<ingredients>
+			<li>
+			  <filter>
+			    <thingDefs>
+				  <li>BlocksSlate</li>
+				  <li>BlocksMarble</li>
+				  <li>BlocksLimestone</li>
+				  <li>BlocksGranite</li>
+				 </thingDefs>
+			  </filter>
+				<count>50</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+		  <thingDefs>
+			<li>BlocksSlate</li>
+			<li>BlocksMarble</li>
+			<li>BlocksLimestone</li>
+			<li>BlocksGranite</li>
+		  </thingDefs>
+		</fixedIngredientFilter>
+		<skillRequirements>
+			<Crafting>12</Crafting>
+		</skillRequirements>
+		<products>
+			<BlocksSandstone>50</BlocksSandstone>
+		</products>
+	</RecipeDef>
+  <!--No Elec Stone Convert 100-->
+	<RecipeDef ParentName="ConvertStoneBlocksBase100">
+		<defName>C2100Slate</defName>
+		<label>convert any stone blocks to slate (100)</label>
+		<description>makes other blocks into slate blocks.</description>
+		<ingredients>
+			<li>
+			  <filter>
+			    <thingDefs>
+				  <li>BlocksGranite</li>
+				  <li>BlocksMarble</li>
+				  <li>BlocksLimestone</li>
+				  <li>BlocksSandstone</li>
+				 </thingDefs>
+			  </filter>
+				<count>100</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+		  <thingDefs>
+			<li>BlocksGranite</li>
+			<li>BlocksMarble</li>
+			<li>BlocksLimestone</li>
+			<li>BlocksSandstone</li>
+		  </thingDefs>
+		</fixedIngredientFilter>
+		<skillRequirements>
+			<Crafting>16</Crafting>
+		</skillRequirements>
+		<products>
+			<BlocksSlate>100</BlocksSlate>
+		</products>
+	</RecipeDef>
+	<RecipeDef ParentName="ConvertStoneBlocksBase100">
+		<defName>C2100Granite</defName>
+		<label>convert any stone blocks to granite (100)</label>
+		<description>makes other blocks into granite blocks.</description>
+		<ingredients>
+			<li>
+			  <filter>
+			    <thingDefs>
+				  <li>BlocksSlate</li>
+				  <li>BlocksMarble</li>
+				  <li>BlocksLimestone</li>
+				  <li>BlocksSandstone</li>
+				 </thingDefs>
+			  </filter>
+				<count>100</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+		  <thingDefs>
+			<li>BlocksSlate</li>
+			<li>BlocksMarble</li>
+			<li>BlocksLimestone</li>
+			<li>BlocksSandstone</li>
+		  </thingDefs>
+		</fixedIngredientFilter>
+		<skillRequirements>
+			<Crafting>16</Crafting>
+		</skillRequirements>
+		<products>
+			<BlocksGranite>100</BlocksGranite>
+		</products>
+	</RecipeDef>
+	<RecipeDef ParentName="ConvertStoneBlocksBase100">
+		<defName>C2100Limestone</defName>
+		<label>convert any stone blocks to limestone (100)</label>
+		<description>makes other blocks into limestone blocks.</description>
+		<ingredients>
+			<li>
+			  <filter>
+			    <thingDefs>
+				  <li>BlocksSlate</li>
+				  <li>BlocksMarble</li>
+				  <li>BlocksGranite</li>
+				  <li>BlocksSandstone</li>
+				 </thingDefs>
+			  </filter>
+				<count>100</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+		  <thingDefs>
+			<li>BlocksSlate</li>
+			<li>BlocksMarble</li>
+			<li>BlocksGranite</li>
+			<li>BlocksSandstone</li>
+		  </thingDefs>
+		</fixedIngredientFilter>
+		<skillRequirements>
+			<Crafting>16</Crafting>
+		</skillRequirements>
+		<products>
+			<BlocksLimestone>100</BlocksLimestone>
+		</products>
+	</RecipeDef>
+	<RecipeDef ParentName="ConvertStoneBlocksBase100">
+		<defName>C2100Marble</defName>
+		<label>convert any stone blocks to marble (100)</label>
+		<description>makes other blocks into marble blocks.</description>
+		<ingredients>
+			<li>
+			  <filter>
+			    <thingDefs>
+				  <li>BlocksSlate</li>
+				  <li>BlocksGranite</li>
+				  <li>BlocksLimestone</li>
+				  <li>BlocksSandstone</li>
+				 </thingDefs>
+			  </filter>
+				<count>100</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+		  <thingDefs>
+			<li>BlocksSlate</li>
+			<li>BlocksGranite</li>
+			<li>BlocksLimestone</li>
+			<li>BlocksSandstone</li>
+		  </thingDefs>
+		</fixedIngredientFilter>
+		<skillRequirements>
+			<Crafting>16</Crafting>
+		</skillRequirements>
+		<products>
+			<BlocksMarble>100</BlocksMarble>
+		</products>
+	</RecipeDef>
+	<RecipeDef ParentName="ConvertStoneBlocksBase100">
+		<defName>C2100Sandstone</defName>
+		<label>convert any stone blocks to sandstone (100)</label>
+		<description>makes other blocks into sandstone blocks.</description>
+		<ingredients>
+			<li>
+			  <filter>
+			    <thingDefs>
+				  <li>BlocksSlate</li>
+				  <li>BlocksMarble</li>
+				  <li>BlocksLimestone</li>
+				  <li>BlocksGranite</li>
+				 </thingDefs>
+			  </filter>
+				<count>100</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+		  <thingDefs>
+			<li>BlocksSlate</li>
+			<li>BlocksMarble</li>
+			<li>BlocksLimestone</li>
+			<li>BlocksGranite</li>
+		  </thingDefs>
+		</fixedIngredientFilter>
+		<skillRequirements>
+			<Crafting>16</Crafting>
+		</skillRequirements>
+		<products>
+			<BlocksSandstone>100</BlocksSandstone>
+		</products>
+	</RecipeDef>
+  <!--Elec Stone Convert Single-->	
+	<RecipeDef ParentName="ElecConvertStoneBlocksBase">
+		<defName>C2SlateE</defName>
+		<label>convert any stone blocks to slate</label>
+		<description>makes other blocks into slate blocks.</description>
+		<ingredients>
+			<li>
+			  <filter>
+			    <thingDefs>
+				  <li>BlocksGranite</li>
+				  <li>BlocksMarble</li>
+				  <li>BlocksLimestone</li>
+				  <li>BlocksSandstone</li>
+				 </thingDefs>
+			  </filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+		  <thingDefs>
+			<li>BlocksGranite</li>
+			<li>BlocksMarble</li>
+			<li>BlocksLimestone</li>
+			<li>BlocksSandstone</li>
+		  </thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<BlocksSlate>1</BlocksSlate>
+		</products>
+	</RecipeDef>
+	<RecipeDef ParentName="ElecConvertStoneBlocksBase">
+		<defName>C2GraniteE</defName>
+		<label>convert any stone blocks to granite</label>
+		<description>makes other blocks into granite blocks.</description>
+		<ingredients>
+			<li>
+			  <filter>
+			    <thingDefs>
+				  <li>BlocksSlate</li>
+				  <li>BlocksMarble</li>
+				  <li>BlocksLimestone</li>
+				  <li>BlocksSandstone</li>
+				 </thingDefs>
+			  </filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+		  <thingDefs>
+			<li>BlocksSlate</li>
+			<li>BlocksMarble</li>
+			<li>BlocksLimestone</li>
+			<li>BlocksSandstone</li>
+		  </thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<BlocksGranite>1</BlocksGranite>
+		</products>
+	</RecipeDef>
+	<RecipeDef ParentName="ElecConvertStoneBlocksBase">
+		<defName>C2LimestoneE</defName>
+		<label>convert any stone blocks to limestone</label>
+		<description>makes other blocks into limestone blocks.</description>
+		<ingredients>
+			<li>
+			  <filter>
+			    <thingDefs>
+				  <li>BlocksSlate</li>
+				  <li>BlocksMarble</li>
+				  <li>BlocksGranite</li>
+				  <li>BlocksSandstone</li>
+				 </thingDefs>
+			  </filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+		  <thingDefs>
+			<li>BlocksSlate</li>
+			<li>BlocksMarble</li>
+			<li>BlocksGranite</li>
+			<li>BlocksSandstone</li>
+		  </thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<BlocksLimestone>1</BlocksLimestone>
+		</products>
+	</RecipeDef>
+	<RecipeDef ParentName="ElecConvertStoneBlocksBase">
+		<defName>C2MarbleE</defName>
+		<label>convert any stone blocks to marble</label>
+		<description>makes other blocks into marble blocks.</description>
+		<ingredients>
+			<li>
+			  <filter>
+			    <thingDefs>
+				  <li>BlocksSlate</li>
+				  <li>BlocksGranite</li>
+				  <li>BlocksLimestone</li>
+				  <li>BlocksSandstone</li>
+				 </thingDefs>
+			  </filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+		  <thingDefs>
+			<li>BlocksSlate</li>
+			<li>BlocksGranite</li>
+			<li>BlocksLimestone</li>
+			<li>BlocksSandstone</li>
+		  </thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<BlocksMarble>1</BlocksMarble>
+		</products>
+	</RecipeDef>
+	<RecipeDef ParentName="ElecConvertStoneBlocksBase">
+		<defName>C2SandstoneE</defName>
+		<label>convert any stone blocks to sandstone</label>
+		<description>makes other blocks into sandstone blocks.</description>
+		<ingredients>
+			<li>
+			  <filter>
+			    <thingDefs>
+				  <li>BlocksSlate</li>
+				  <li>BlocksMarble</li>
+				  <li>BlocksLimestone</li>
+				  <li>BlocksGranite</li>
+				 </thingDefs>
+			  </filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+		  <thingDefs>
+			<li>BlocksSlate</li>
+			<li>BlocksMarble</li>
+			<li>BlocksLimestone</li>
+			<li>BlocksGranite</li>
+		  </thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<BlocksSandstone>1</BlocksSandstone>
+		</products>
+	</RecipeDef>
+  <!--Elec Stone Convert 10-->	
+	<RecipeDef ParentName="ElecConvertStoneBlocksBase10">
+		<defName>C210SlateE</defName>
+		<label>convert any stone blocks to slate (10)</label>
+		<description>makes other blocks into slate blocks.</description>
+		<ingredients>
+			<li>
+			  <filter>
+			    <thingDefs>
+				  <li>BlocksGranite</li>
+				  <li>BlocksMarble</li>
+				  <li>BlocksLimestone</li>
+				  <li>BlocksSandstone</li>
+				 </thingDefs>
+			  </filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+		  <thingDefs>
+			<li>BlocksGranite</li>
+			<li>BlocksMarble</li>
+			<li>BlocksLimestone</li>
+			<li>BlocksSandstone</li>
+		  </thingDefs>
+		</fixedIngredientFilter>
+		<skillRequirements>
+			<Crafting>4</Crafting>
+		</skillRequirements>
+		<products>
+			<BlocksSlate>10</BlocksSlate>
+		</products>
+	</RecipeDef>
+	<RecipeDef ParentName="ElecConvertStoneBlocksBase10">
+		<defName>C210GraniteE</defName>
+		<label>convert any stone blocks to granite (10)</label>
+		<description>makes other blocks into granite blocks.</description>
+		<ingredients>
+			<li>
+			  <filter>
+			    <thingDefs>
+				  <li>BlocksSlate</li>
+				  <li>BlocksMarble</li>
+				  <li>BlocksLimestone</li>
+				  <li>BlocksSandstone</li>
+				 </thingDefs>
+			  </filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+		  <thingDefs>
+			<li>BlocksSlate</li>
+			<li>BlocksMarble</li>
+			<li>BlocksLimestone</li>
+			<li>BlocksSandstone</li>
+		  </thingDefs>
+		</fixedIngredientFilter>
+		<skillRequirements>
+			<Crafting>4</Crafting>
+		</skillRequirements>
+		<products>
+			<BlocksGranite>10</BlocksGranite>
+		</products>
+	</RecipeDef>
+	<RecipeDef ParentName="ElecConvertStoneBlocksBase10">
+		<defName>C210LimestoneE</defName>
+		<label>convert any stone blocks to limestone (10)</label>
+		<description>makes other blocks into limestone blocks.</description>
+		<ingredients>
+			<li>
+			  <filter>
+			    <thingDefs>
+				  <li>BlocksSlate</li>
+				  <li>BlocksMarble</li>
+				  <li>BlocksGranite</li>
+				  <li>BlocksSandstone</li>
+				 </thingDefs>
+			  </filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+		  <thingDefs>
+			<li>BlocksSlate</li>
+			<li>BlocksMarble</li>
+			<li>BlocksGranite</li>
+			<li>BlocksSandstone</li>
+		  </thingDefs>
+		</fixedIngredientFilter>
+		<skillRequirements>
+			<Crafting>4</Crafting>
+		</skillRequirements>
+		<products>
+			<BlocksLimestone>10</BlocksLimestone>
+		</products>
+	</RecipeDef>
+	<RecipeDef ParentName="ElecConvertStoneBlocksBase10">
+		<defName>C210MarbleE</defName>
+		<label>convert any stone blocks to marble (10)</label>
+		<description>makes other blocks into marble blocks.</description>
+		<ingredients>
+			<li>
+			  <filter>
+			    <thingDefs>
+				  <li>BlocksSlate</li>
+				  <li>BlocksGranite</li>
+				  <li>BlocksLimestone</li>
+				  <li>BlocksSandstone</li>
+				 </thingDefs>
+			  </filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+		  <thingDefs>
+			<li>BlocksSlate</li>
+			<li>BlocksGranite</li>
+			<li>BlocksLimestone</li>
+			<li>BlocksSandstone</li>
+		  </thingDefs>
+		</fixedIngredientFilter>
+		<skillRequirements>
+			<Crafting>4</Crafting>
+		</skillRequirements>
+		<products>
+			<BlocksMarble>10</BlocksMarble>
+		</products>
+	</RecipeDef>
+	<RecipeDef ParentName="ElecConvertStoneBlocksBase10">
+		<defName>C210SandstoneE</defName>
+		<label>convert any stone blocks to sandstone (10)</label>
+		<description>makes other blocks into sandstone blocks.</description>
+		<ingredients>
+			<li>
+			  <filter>
+			    <thingDefs>
+				  <li>BlocksSlate</li>
+				  <li>BlocksMarble</li>
+				  <li>BlocksLimestone</li>
+				  <li>BlocksGranite</li>
+				 </thingDefs>
+			  </filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+		  <thingDefs>
+			<li>BlocksSlate</li>
+			<li>BlocksMarble</li>
+			<li>BlocksLimestone</li>
+			<li>BlocksGranite</li>
+		  </thingDefs>
+		</fixedIngredientFilter>
+		<skillRequirements>
+			<Crafting>4</Crafting>
+		</skillRequirements>
+		<products>
+			<BlocksSandstone>10</BlocksSandstone>
+		</products>
+	</RecipeDef>
+  <!--Elec Stone Convert 25-->
+	<RecipeDef ParentName="ElecConvertStoneBlocksBase25">
+		<defName>C225SlateE</defName>
+		<label>convert any stone blocks to slate (25)</label>
+		<description>makes other blocks into slate blocks.</description>
+		<ingredients>
+			<li>
+			  <filter>
+			    <thingDefs>
+				  <li>BlocksGranite</li>
+				  <li>BlocksMarble</li>
+				  <li>BlocksLimestone</li>
+				  <li>BlocksSandstone</li>
+				 </thingDefs>
+			  </filter>
+				<count>25</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+		  <thingDefs>
+			<li>BlocksGranite</li>
+			<li>BlocksMarble</li>
+			<li>BlocksLimestone</li>
+			<li>BlocksSandstone</li>
+		  </thingDefs>
+		</fixedIngredientFilter>
+		<skillRequirements>
+			<Crafting>8</Crafting>
+		</skillRequirements>
+		<products>
+			<BlocksSlate>25</BlocksSlate>
+		</products>
+	</RecipeDef>
+	<RecipeDef ParentName="ElecConvertStoneBlocksBase25">
+		<defName>C225GraniteE</defName>
+		<label>convert any stone blocks to granite (25)</label>
+		<description>makes other blocks into granite blocks.</description>
+		<ingredients>
+			<li>
+			  <filter>
+			    <thingDefs>
+				  <li>BlocksSlate</li>
+				  <li>BlocksMarble</li>
+				  <li>BlocksLimestone</li>
+				  <li>BlocksSandstone</li>
+				 </thingDefs>
+			  </filter>
+				<count>25</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+		  <thingDefs>
+			<li>BlocksSlate</li>
+			<li>BlocksMarble</li>
+			<li>BlocksLimestone</li>
+			<li>BlocksSandstone</li>
+		  </thingDefs>
+		</fixedIngredientFilter>
+		<skillRequirements>
+			<Crafting>8</Crafting>
+		</skillRequirements>
+		<products>
+			<BlocksGranite>25</BlocksGranite>
+		</products>
+	</RecipeDef>
+	<RecipeDef ParentName="ElecConvertStoneBlocksBase25">
+		<defName>C225LimestoneE</defName>
+		<label>convert any stone blocks to limestone (25)</label>
+		<description>makes other blocks into limestone blocks.</description>
+		<ingredients>
+			<li>
+			  <filter>
+			    <thingDefs>
+				  <li>BlocksSlate</li>
+				  <li>BlocksMarble</li>
+				  <li>BlocksGranite</li>
+				  <li>BlocksSandstone</li>
+				 </thingDefs>
+			  </filter>
+				<count>25</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+		  <thingDefs>
+			<li>BlocksSlate</li>
+			<li>BlocksMarble</li>
+			<li>BlocksGranite</li>
+			<li>BlocksSandstone</li>
+		  </thingDefs>
+		</fixedIngredientFilter>
+		<skillRequirements>
+			<Crafting>8</Crafting>
+		</skillRequirements>
+		<products>
+			<BlocksLimestone>25</BlocksLimestone>
+		</products>
+	</RecipeDef>
+	<RecipeDef ParentName="ElecConvertStoneBlocksBase25">
+		<defName>C225MarbleE</defName>
+		<label>convert any stone blocks to marble (25)</label>
+		<description>makes other blocks into marble blocks.</description>
+		<ingredients>
+			<li>
+			  <filter>
+			    <thingDefs>
+				  <li>BlocksSlate</li>
+				  <li>BlocksGranite</li>
+				  <li>BlocksLimestone</li>
+				  <li>BlocksSandstone</li>
+				 </thingDefs>
+			  </filter>
+				<count>25</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+		  <thingDefs>
+			<li>BlocksSlate</li>
+			<li>BlocksGranite</li>
+			<li>BlocksLimestone</li>
+			<li>BlocksSandstone</li>
+		  </thingDefs>
+		</fixedIngredientFilter>
+		<skillRequirements>
+			<Crafting>8</Crafting>
+		</skillRequirements>
+		<products>
+			<BlocksMarble>25</BlocksMarble>
+		</products>
+	</RecipeDef>
+	<RecipeDef ParentName="ElecConvertStoneBlocksBase25">
+		<defName>C225SandstoneE</defName>
+		<label>convert any stone blocks to sandstone (25)</label>
+		<description>makes other blocks into sandstone blocks.</description>
+		<ingredients>
+			<li>
+			  <filter>
+			    <thingDefs>
+				  <li>BlocksSlate</li>
+				  <li>BlocksMarble</li>
+				  <li>BlocksLimestone</li>
+				  <li>BlocksGranite</li>
+				 </thingDefs>
+			  </filter>
+				<count>25</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+		  <thingDefs>
+			<li>BlocksSlate</li>
+			<li>BlocksMarble</li>
+			<li>BlocksLimestone</li>
+			<li>BlocksGranite</li>
+		  </thingDefs>
+		</fixedIngredientFilter>
+		<skillRequirements>
+			<Crafting>8</Crafting>
+		</skillRequirements>
+		<products>
+			<BlocksSandstone>25</BlocksSandstone>
+		</products>
+	</RecipeDef>
+  <!--Elec Stone Convert 50-->
+	<RecipeDef ParentName="ElecConvertStoneBlocksBase50">
+		<defName>C250SlateE</defName>
+		<label>convert any stone blocks to slate (50)</label>
+		<description>makes other blocks into slate blocks.</description>
+		<ingredients>
+			<li>
+			  <filter>
+			    <thingDefs>
+				  <li>BlocksGranite</li>
+				  <li>BlocksMarble</li>
+				  <li>BlocksLimestone</li>
+				  <li>BlocksSandstone</li>
+				 </thingDefs>
+			  </filter>
+				<count>50</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+		  <thingDefs>
+			<li>BlocksGranite</li>
+			<li>BlocksMarble</li>
+			<li>BlocksLimestone</li>
+			<li>BlocksSandstone</li>
+		  </thingDefs>
+		</fixedIngredientFilter>
+		<skillRequirements>
+			<Crafting>12</Crafting>
+		</skillRequirements>
+		<products>
+			<BlocksSlate>50</BlocksSlate>
+		</products>
+	</RecipeDef>
+	<RecipeDef ParentName="ElecConvertStoneBlocksBase50">
+		<defName>C250GraniteE</defName>
+		<label>convert any stone blocks to granite (50)</label>
+		<description>makes other blocks into granite blocks.</description>
+		<ingredients>
+			<li>
+			  <filter>
+			    <thingDefs>
+				  <li>BlocksSlate</li>
+				  <li>BlocksMarble</li>
+				  <li>BlocksLimestone</li>
+				  <li>BlocksSandstone</li>
+				 </thingDefs>
+			  </filter>
+				<count>50</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+		  <thingDefs>
+			<li>BlocksSlate</li>
+			<li>BlocksMarble</li>
+			<li>BlocksLimestone</li>
+			<li>BlocksSandstone</li>
+		  </thingDefs>
+		</fixedIngredientFilter>
+		<skillRequirements>
+			<Crafting>12</Crafting>
+		</skillRequirements>
+		<products>
+			<BlocksGranite>50</BlocksGranite>
+		</products>
+	</RecipeDef>
+	<RecipeDef ParentName="ElecConvertStoneBlocksBase50">
+		<defName>C250LimestoneE</defName>
+		<label>convert any stone blocks to limestone (50)</label>
+		<description>makes other blocks into limestone blocks.</description>
+		<ingredients>
+			<li>
+			  <filter>
+			    <thingDefs>
+				  <li>BlocksSlate</li>
+				  <li>BlocksMarble</li>
+				  <li>BlocksGranite</li>
+				  <li>BlocksSandstone</li>
+				 </thingDefs>
+			  </filter>
+				<count>50</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+		  <thingDefs>
+			<li>BlocksSlate</li>
+			<li>BlocksMarble</li>
+			<li>BlocksGranite</li>
+			<li>BlocksSandstone</li>
+		  </thingDefs>
+		</fixedIngredientFilter>
+		<skillRequirements>
+			<Crafting>12</Crafting>
+		</skillRequirements>
+		<products>
+			<BlocksLimestone>50</BlocksLimestone>
+		</products>
+	</RecipeDef>
+	<RecipeDef ParentName="ElecConvertStoneBlocksBase50">
+		<defName>C250MarbleE</defName>
+		<label>convert any stone blocks to marble (50)</label>
+		<description>makes other blocks into marble blocks.</description>
+		<ingredients>
+			<li>
+			  <filter>
+			    <thingDefs>
+				  <li>BlocksSlate</li>
+				  <li>BlocksGranite</li>
+				  <li>BlocksLimestone</li>
+				  <li>BlocksSandstone</li>
+				 </thingDefs>
+			  </filter>
+				<count>50</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+		  <thingDefs>
+			<li>BlocksSlate</li>
+			<li>BlocksGranite</li>
+			<li>BlocksLimestone</li>
+			<li>BlocksSandstone</li>
+		  </thingDefs>
+		</fixedIngredientFilter>
+		<skillRequirements>
+			<Crafting>12</Crafting>
+		</skillRequirements>
+		<products>
+			<BlocksMarble>50</BlocksMarble>
+		</products>
+	</RecipeDef>
+	<RecipeDef ParentName="ElecConvertStoneBlocksBase50">
+		<defName>C250SandstoneE</defName>
+		<label>convert any stone blocks to sandstone (50)</label>
+		<description>makes other blocks into sandstone blocks.</description>
+		<ingredients>
+			<li>
+			  <filter>
+			    <thingDefs>
+				  <li>BlocksSlate</li>
+				  <li>BlocksMarble</li>
+				  <li>BlocksLimestone</li>
+				  <li>BlocksGranite</li>
+				 </thingDefs>
+			  </filter>
+				<count>50</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+		  <thingDefs>
+			<li>BlocksSlate</li>
+			<li>BlocksMarble</li>
+			<li>BlocksLimestone</li>
+			<li>BlocksGranite</li>
+		  </thingDefs>
+		</fixedIngredientFilter>
+		<skillRequirements>
+			<Crafting>12</Crafting>
+		</skillRequirements>
+		<products>
+			<BlocksSandstone>50</BlocksSandstone>
+		</products>
+	</RecipeDef>
+  <!--Elec Stone Convert 100-->
+	<RecipeDef ParentName="ElecConvertStoneBlocksBase100">
+		<defName>C2100SlateE</defName>
+		<label>convert any stone blocks to slate (100)</label>
+		<description>makes other blocks into slate blocks.</description>
+		<ingredients>
+			<li>
+			  <filter>
+			    <thingDefs>
+				  <li>BlocksGranite</li>
+				  <li>BlocksMarble</li>
+				  <li>BlocksLimestone</li>
+				  <li>BlocksSandstone</li>
+				 </thingDefs>
+			  </filter>
+				<count>100</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+		  <thingDefs>
+			<li>BlocksGranite</li>
+			<li>BlocksMarble</li>
+			<li>BlocksLimestone</li>
+			<li>BlocksSandstone</li>
+		  </thingDefs>
+		</fixedIngredientFilter>
+		<skillRequirements>
+			<Crafting>16</Crafting>
+		</skillRequirements>
+		<products>
+			<BlocksSlate>100</BlocksSlate>
+		</products>
+	</RecipeDef>
+	<RecipeDef ParentName="ElecConvertStoneBlocksBase100">
+		<defName>C2100GraniteE</defName>
+		<label>convert any stone blocks to granite (100)</label>
+		<description>makes other blocks into granite blocks.</description>
+		<ingredients>
+			<li>
+			  <filter>
+			    <thingDefs>
+				  <li>BlocksSlate</li>
+				  <li>BlocksMarble</li>
+				  <li>BlocksLimestone</li>
+				  <li>BlocksSandstone</li>
+				 </thingDefs>
+			  </filter>
+				<count>100</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+		  <thingDefs>
+			<li>BlocksSlate</li>
+			<li>BlocksMarble</li>
+			<li>BlocksLimestone</li>
+			<li>BlocksSandstone</li>
+		  </thingDefs>
+		</fixedIngredientFilter>
+		<skillRequirements>
+			<Crafting>16</Crafting>
+		</skillRequirements>
+		<products>
+			<BlocksGranite>100</BlocksGranite>
+		</products>
+	</RecipeDef>
+	<RecipeDef ParentName="ElecConvertStoneBlocksBase100">
+		<defName>C2100LimestoneE</defName>
+		<label>convert any stone blocks to limestone (100)</label>
+		<description>makes other blocks into limestone blocks.</description>
+		<ingredients>
+			<li>
+			  <filter>
+			    <thingDefs>
+				  <li>BlocksSlate</li>
+				  <li>BlocksMarble</li>
+				  <li>BlocksGranite</li>
+				  <li>BlocksSandstone</li>
+				 </thingDefs>
+			  </filter>
+				<count>100</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+		  <thingDefs>
+			<li>BlocksSlate</li>
+			<li>BlocksMarble</li>
+			<li>BlocksGranite</li>
+			<li>BlocksSandstone</li>
+		  </thingDefs>
+		</fixedIngredientFilter>
+		<skillRequirements>
+			<Crafting>16</Crafting>
+		</skillRequirements>
+		<products>
+			<BlocksLimestone>100</BlocksLimestone>
+		</products>
+	</RecipeDef>
+	<RecipeDef ParentName="ElecConvertStoneBlocksBase100">
+		<defName>C2100MarbleE</defName>
+		<label>convert any stone blocks to marble (100)</label>
+		<description>makes other blocks into marble blocks.</description>
+		<ingredients>
+			<li>
+			  <filter>
+			    <thingDefs>
+				  <li>BlocksSlate</li>
+				  <li>BlocksGranite</li>
+				  <li>BlocksLimestone</li>
+				  <li>BlocksSandstone</li>
+				 </thingDefs>
+			  </filter>
+				<count>100</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+		  <thingDefs>
+			<li>BlocksSlate</li>
+			<li>BlocksGranite</li>
+			<li>BlocksLimestone</li>
+			<li>BlocksSandstone</li>
+		  </thingDefs>
+		</fixedIngredientFilter>
+		<skillRequirements>
+			<Crafting>16</Crafting>
+		</skillRequirements>
+		<products>
+			<BlocksMarble>100</BlocksMarble>
+		</products>
+	</RecipeDef>
+	<RecipeDef ParentName="ElecConvertStoneBlocksBase100">
+		<defName>C2100SandstoneE</defName>
+		<label>convert any stone blocks to sandstone (100)</label>
+		<description>makes other blocks into sandstone blocks.</description>
+		<ingredients>
+			<li>
+			  <filter>
+			    <thingDefs>
+				  <li>BlocksSlate</li>
+				  <li>BlocksMarble</li>
+				  <li>BlocksLimestone</li>
+				  <li>BlocksGranite</li>
+				 </thingDefs>
+			  </filter>
+				<count>100</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+		  <thingDefs>
+			<li>BlocksSlate</li>
+			<li>BlocksMarble</li>
+			<li>BlocksLimestone</li>
+			<li>BlocksGranite</li>
+		  </thingDefs>
+		</fixedIngredientFilter>
+		<skillRequirements>
+			<Crafting>16</Crafting>
+		</skillRequirements>
+		<products>
+			<BlocksSandstone>100</BlocksSandstone>
+		</products>
+	</RecipeDef>
+</Defs>

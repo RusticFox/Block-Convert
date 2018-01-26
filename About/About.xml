@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+<name>Block Convert</name>
+<author>✬Rustic Fox✬</author>
+<targetVersion>0.18.1722</targetVersion>
+<description>
+A mod that allows you to convert blocks into other blocks
+  
+Research
+  
+StoneConversion 600 Requires Stonecutting
+PoweredStoneConversion 1200 Requires StoneConversion
+  
+Credits
+  
+Mrofa - Art
+  
+Version: 1.0.1
+</description>
+</ModMetaData>
