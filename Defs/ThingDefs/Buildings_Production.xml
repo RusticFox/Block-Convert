@@ -12,7 +12,10 @@
 		<graphicClass>Graphic_Multi</graphicClass>
 		<drawSize>(3,1)</drawSize>
 	</graphicData>
-    <minifiedDef>MinifiedFurniture</minifiedDef>
+    <minifiedDef>MinifiedThing</minifiedDef>
+        <thingCategories>
+          <li>BuildingsProduction</li>
+        </thingCategories>
 	<costList>
       <WoodLog>60</WoodLog>
       <Steel>50</Steel>
@@ -24,6 +27,7 @@
       <WorkToBuild>1000</WorkToBuild>
       <MaxHitPoints>180</MaxHitPoints>
       <Flammability>1.0</Flammability>
+	  <Mass>25</Mass>
     </statBases>
     <size>(3,1)</size>
     <designationCategory>Production</designationCategory>
@@ -58,7 +62,10 @@
 		<graphicClass>Graphic_Multi</graphicClass>
 		<drawSize>(3,1)</drawSize>
 	</graphicData>
-    <minifiedDef>MinifiedFurniture</minifiedDef>
+    <minifiedDef>MinifiedThing</minifiedDef>
+        <thingCategories>
+          <li>BuildingsProduction</li>
+        </thingCategories>
 	<costList>
       <WoodLog>120</WoodLog>
       <Steel>350</Steel>
@@ -70,6 +77,7 @@
       <WorkToBuild>1500</WorkToBuild>
       <MaxHitPoints>180</MaxHitPoints>
       <Flammability>1.0</Flammability>
+	  <Mass>25</Mass>
     </statBases>
     <size>(3,1)</size>
     <designationCategory>Production</designationCategory>
@@ -92,7 +100,6 @@
 			</li>
             <li Class="CompProperties_Power">
             <compClass>CompPowerTrader</compClass>
-            <startElectricalFires>true</startElectricalFires>
             <basePowerConsumption>250</basePowerConsumption>
             </li>
             <li Class="CompProperties_Flickable"/>
