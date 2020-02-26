@@ -1,8 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-<name>Block Convert</name>
+<name>Block Convert [1.0/1.1]</name>
 <author>✬Rustic Fox✬</author>
-<targetVersion>0.19.2009</targetVersion>
+<packageId>RusticFox.BlockConvert</packageId>
+<supportedVersions>
+   <li>1.0</li>
+   <li>1.1</li>
+</supportedVersions>
 <description>
 A mod that allows you to convert blocks into other blocks
   
@@ -13,8 +17,8 @@ PoweredStoneConversion 1200 Requires StoneConversion
   
 Credits
   
-Mrofa - Art
+Mrofa - Workbench Art
   
-Version: 1.1.0
+Version: 1.1.5
 </description>
 </ModMetaData>
