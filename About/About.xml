@@ -1,11 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-<name>Block Convert [1.0/1.1]</name>
+<name>Block Convert [1.0->1.2]</name>
 <author>✬Rustic Fox✬</author>
 <packageId>RusticFox.BlockConvert</packageId>
 <supportedVersions>
    <li>1.0</li>
    <li>1.1</li>
+   <li>1.2</li>
 </supportedVersions>
 <description>
 A mod that allows you to convert blocks into other blocks
@@ -19,6 +20,6 @@ Credits
   
 Mrofa - Workbench Art
   
-Version: 1.1.5.4
+Version: 1.2.5.4
 </description>
 </ModMetaData>

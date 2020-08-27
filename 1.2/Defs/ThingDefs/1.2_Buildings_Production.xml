@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!--No Elec Workbench-->	
+ <ThingDef ParentName="BuildingBase">
+    <defName>BlocksWorkTable</defName>
+    <label>Blocks Workbench</label>
+    <thingClass>Building_WorkTable</thingClass>
+    <description>A workbench to convert blocks.</description>
+	<graphicData>
+		<texPath>Things/Building/Production/no_elec_blockconvert</texPath>
+		<graphicClass>Graphic_Multi</graphicClass>
+		<drawSize>(3,1)</drawSize>
+	</graphicData>
+    <minifiedDef>MinifiedThing</minifiedDef>
+        <thingCategories>
+          <li>BuildingsProduction</li>
+        </thingCategories>
+	<costList>
+      <WoodLog>60</WoodLog>
+      <Steel>50</Steel>
+    </costList>
+    <altitudeLayer>Building</altitudeLayer>
+	<fillPercent>0.5</fillPercent>
+    <useHitPoints>True</useHitPoints>
+    <statBases>
+      <WorkToBuild>1000</WorkToBuild>
+      <MaxHitPoints>180</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+	  <Mass>25</Mass>
+    </statBases>
+    <size>(3,1)</size>
+    <designationCategory>Production</designationCategory>
+    <passability>PassThroughOnly</passability>
+	<pathCost>70</pathCost>
+    <hasInteractionCell>True</hasInteractionCell>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <surfaceType>Item</surfaceType>
+	<inspectorTabs>
+      <li>ITab_Bills</li>
+    </inspectorTabs>
+	<building>
+      <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+    </building>
+		<comps>
+			<li Class="CompProperties_AffectedByFacilities">
+				<linkableFacilities>
+					<li>ToolCabinet</li>
+				</linkableFacilities>
+			</li>
+		</comps>
+    <researchPrerequisites><li>StoneConversion</li></researchPrerequisites>
+ </ThingDef>
+  <!--Elec Workbench-->	
+ <ThingDef ParentName="BuildingBase">
+    <defName>BlocksWorkTableElec</defName>
+    <label>Powered Blocks Workbench</label>
+    <thingClass>Building_WorkTable</thingClass>
+    <description>A electric workbench to convert blocks.</description>
+	<graphicData>
+		<texPath>Things/Building/Production/Elec_Block_Convert_Bench</texPath>
+		<graphicClass>Graphic_Multi</graphicClass>
+		<drawSize>(3,1)</drawSize>
+	</graphicData>
+    <minifiedDef>MinifiedThing</minifiedDef>
+        <thingCategories>
+          <li>BuildingsProduction</li>
+        </thingCategories>
+	<costList>
+      <WoodLog>120</WoodLog>
+      <Steel>350</Steel>
+    </costList>
+    <altitudeLayer>Building</altitudeLayer>
+	<fillPercent>0.5</fillPercent>
+    <useHitPoints>True</useHitPoints>
+    <statBases>
+      <WorkToBuild>1500</WorkToBuild>
+      <MaxHitPoints>180</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+	  <Mass>25</Mass>
+    </statBases>
+    <size>(3,1)</size>
+    <designationCategory>Production</designationCategory>
+    <passability>PassThroughOnly</passability>
+	<pathCost>70</pathCost>
+    <hasInteractionCell>True</hasInteractionCell>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <surfaceType>Item</surfaceType>
+	<inspectorTabs>
+      <li>ITab_Bills</li>
+    </inspectorTabs>
+	<building>
+      <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+    </building>
+		<comps>
+			<li Class="CompProperties_AffectedByFacilities">
+				<linkableFacilities>
+					<li>ToolCabinet</li>
+				</linkableFacilities>
+			</li>
+            <li Class="CompProperties_Power">
+            <compClass>CompPowerTrader</compClass>
+            <basePowerConsumption>250</basePowerConsumption>
+            </li>
+            <li Class="CompProperties_Flickable"/>
+		</comps>
+    <researchPrerequisites><li>PoweredStoneConversion</li></researchPrerequisites>
+ </ThingDef>
+ 
+</Defs>
